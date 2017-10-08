@@ -139,6 +139,25 @@ width: 100%;
     float: right;
 
 }
+.container_button {
+    text-align: center;
+}
+a.button7 {
+    text-align: center;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border: 2px solid;
+    background: rgb(64,199,129);
+    box-shadow: 0 -3px rgb(53,167,110) inset;
+    transition: 0.2s;
+}
+a.button7:hover { background: rgb(53, 167, 110); }
+a.button7:active { background: black; }
+}
+
+
 .shopfrontmenu {
 
 }
@@ -242,6 +261,13 @@ span.font_slider_grey {
     color: #555963;
     font-size: 57px;
 }
+.popwrites_header p {
+    text-align: center;
+}
+.popwrites {
+width: 100%;
+}
+
 span.header {
     font-family: 'Ramaraja', serif;
     font-size: 42px;
