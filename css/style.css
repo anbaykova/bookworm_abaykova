@@ -271,6 +271,12 @@ span.font_slider_grey {
     color: #555963;
     font-size: 57px;
 }
+span.book_series_fonts {
+    font-family: 'Ramaraja', serif;
+    font-size: 23px;
+    line-height: 23px;
+    color: #555963;
+}
 .popwrites_header p {
     text-align: center;
 }
@@ -303,6 +309,7 @@ span.font_slider_vote {
     font-family: 'Work Sans', sans-serif;
     color: #555963;
     font-size: 17px;
+    font-weight: bold;
 }
 
 span.font_vote {
@@ -432,8 +439,10 @@ span.text_info {
 }
 
 .container_wrap {
+    background-color: #f7fdff;
     width: 100%;
     margin-top: 40px;
+    margin-bottom: 60px;
 }
 
 .slide_block1 {
@@ -445,33 +454,35 @@ span.text_info {
     float: left;
 }
 .slide_block3 {
+    background-color: #f7fdff;
     width: 32%;
     float: right;
+    box-sizing: border-box;
 }
 .popular_series {
     margin: 30px 0;
     text-align: center;
 }
+
+
 .background_books {
     background-image: url("../img/Bitmap.png");
     background-repeat: repeat;
-    height: 500px;
+    padding: 80px 40px 40px 40px;
 }
 .discount p {
     padding-top: 20px;
 }
 .discount {
-    display: inline-block;
-    width: 50%;
+    width: 600px;
     text-align: center;
     background-color: white;
     height: 340px;
-    margin: 20% 20%;
+    margin: 0 auto;
+}
 
 
 .clearfix {
-    height: 10px;
-    background: #e74c3c;
     clear: both;
 }
 .clearfix-visible {
@@ -483,4 +494,31 @@ span.text_info {
 }
 .container_slider {
 width: 1060px;
+}
+
+.book_1 {
+    float: left;
+}
+.publishers {
+    margin: 80px auto;
+    width: 100%;
+}
+.description p {
+    text-align: left;
+}
+.description {
+    float: left;
+    width: 30%;
+}
+.partners {
+    float: right;
+    width: 70%;
+}
+
+.partners_block {
+    float: left;
+}
+
+.partners_block ul li {
+    float: left;
 }
