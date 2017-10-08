@@ -208,6 +208,9 @@ a.button7:active { background: black; }
     width: 100%;
 
 }
+.literature_books p {
+    text-align: center;
+}
 .literaturenews {
     float: left;
 }
@@ -421,11 +424,29 @@ span.text_info {
 }
 .button_all_news {
     text-align: center;
-    display: inline-block;
+
 }
 
-span.slide_block1 {
+.slider_block {
+    width: 100%;
+}
+
+.container_wrap {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.slide_block1 {
+    width: 68%;
     float: left;
+}
+.slide_block2 {
+
+    float: left;
+}
+.slide_block3 {
+    width: 32%;
+    float: right;
 }
 .popular_series {
     margin: 30px 0;
