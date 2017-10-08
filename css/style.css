@@ -7,9 +7,6 @@
     padding: 0;
 }
 
-
-
-
 html {
     width: 100%;
 }
@@ -199,10 +196,18 @@ a.button7:active { background: black; }
 .button {
     text-align: center;
 }
+.procent {
+    margin: 0 auto;
+    width: 100%;
+}
 .discount {
     background-image: url("images/books.png");
     width: 1134px;
     height: 908px;
+}
+.block_discount {
+    float: left;
+    margin: 20px 20px;
 }
 .literature_writes {
     width: 100%;
@@ -332,7 +337,6 @@ span.fontmenu {
     line-height: 37.46px;
 
 }
-
 
 span.font_yrsa {
     display: block;
@@ -520,5 +524,13 @@ width: 1060px;
 }
 
 .partners_block ul li {
+    padding: 10px 10px;
     float: left;
+}
+.menu_futer {
+    height: 150px;
+    width: 100%;
+}
+.menu_futer ul li  {
+    margin: 20px 20px;
 }
