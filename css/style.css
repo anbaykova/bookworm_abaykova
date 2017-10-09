@@ -152,7 +152,7 @@ a.button7 {
 }
 a.button7:hover { background: rgb(53, 167, 110); }
 a.button7:active { background: black; }
-}
+
 
 
 .shopfrontmenu {
@@ -224,7 +224,7 @@ a.button7:active { background: black; }
     width: 300px;
 }
 .literature_news_autor {
-    margin: 10 px 10px;
+    margin: 10px 10px;
     float: left;
 }
 .popularseries p {
@@ -350,7 +350,7 @@ span.font_yrsa {
 span.font_menu {
     font-family: 'Lato', sans-serif;
     font-size: 16px;
-    line-height: 32p;
+    line-height: 32px;
 }
 span.books_font_grey {
     font-family: 'Ramaraja', serif;
